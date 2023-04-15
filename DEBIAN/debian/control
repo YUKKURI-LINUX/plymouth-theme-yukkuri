@@ -1,0 +1,13 @@
+Package: plymouth-theme-yukkuri
+Version: 22.04-1
+Architecture: all
+Maintainer: Hayate Nakamura <is01.njb@gmail.com>
+Installed-Size: 72
+Depends: plymouth (>= 0.9.2-3), plymouth-label
+Provides: plymouth-theme
+Section: x11
+Priority: optional
+Homepage: https://sites.google.com/view/yukkuri-linux
+Description: plymouth theme for Yukkuri
+ This package contains a Lubuntu theme for Yukkuri, which displays the
+ Yukkuri logo on boot.

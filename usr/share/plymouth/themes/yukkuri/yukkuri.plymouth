@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Yukkuri Logo
+Description=YUKKURI-Linux boot splash theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/yukkuri
+ScriptFile=/usr/share/plymouth/themes/yukkuri/yukkuri.script

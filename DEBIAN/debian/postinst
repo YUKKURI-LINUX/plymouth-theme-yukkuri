@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+case "$1" in
+    configure)
+	sed -e "s/Theme=.*/Theme=yukkuri/g" -i /usr/share/plymouth/plymouthd.defaults
+
+	if which update-initramfs >/dev/null 2>&1
+	then
+	    update-initramfs -u
+	fi
+	;;
+esac
+
+
+exit 0
